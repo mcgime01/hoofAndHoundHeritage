@@ -19,7 +19,7 @@ const config: Config = {
     },
   },
   plugins: [
-    plugin(function({ addUtilities, addComponents, e, config }) {
+    plugin(function({}) {
       require('@tailwindcss/aspect-ratio')
     }),
   ],
